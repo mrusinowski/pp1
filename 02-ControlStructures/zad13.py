@@ -10,7 +10,7 @@ elif x<0 and y>0:
 elif x>0 and y<0:
     print("Punkt ({}, {}) znajduje się w IV ćwiartce".format(x,y))
 elif x==0 and y==0:
-    print("Punkt ({}, {}) znajduje się na środku układu współrzędnych".format(x,y))
+    print("Punkt ({}, {}) znajduje się na początku układu współrzędnych".format(x,y))
 elif x==0:
     print("Punkt ({}, {}) znajduje się na osi x".format(x,y))
 elif y==0:
