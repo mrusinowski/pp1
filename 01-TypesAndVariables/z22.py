@@ -1,0 +1,6 @@
+a = int(input("Wprowadź liczbę: "))
+b = int(input("Wprowadź liczbę: "))
+c = int(input("Wprowadź liczbę: "))
+p = (1/2)*(a+b+c)
+pole = (p*(p-a)*(p-b)*(p-c))**(1/2)
+print("Pole trójkąta o bokach: {}, {} i {} wynosi {}".format(a,b,c,pole))
