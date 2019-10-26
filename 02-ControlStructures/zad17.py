@@ -1,7 +1,9 @@
 sumap = 0
 sumanp = 0
-i = 0
 for i in range(0,51):
-    if i % 2 != 0
-    sumanp += i
-    print("Suma liczba nieparzystych w tych przedziale wynosi {}".format(sumanp))
+    if i % 2 == 0:
+        sumap += i
+    else:
+        sumanp += i
+print("Suma liczb parzystych w przedziale <0,50> wynosi {}".format(sumap))
+print("Suma liczb nieparzystych w przedziale <0,50> wynosi {}".format(sumanp))

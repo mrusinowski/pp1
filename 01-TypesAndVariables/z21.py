@@ -1,4 +1,4 @@
-c = float(input("Wprowadź liczbę: "))
+c = float(input("Wprowadź ilość stopni Celsjusza: "))
 f = c*1.8+32
 k = c+273.15
 print("{} stopni Celsjusza to {} stopni Fahrenheita".format(c,f))

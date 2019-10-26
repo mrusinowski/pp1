@@ -1,3 +1,2 @@
-ulamki = [1/1,1/2,1/3,1/4,1/5,1/6,1/7,1/8,1/9,1/10]
-for x in ulamki:
-    print(str(x) + " = " + str(x))
+for x in range(1,11):
+    print("1/{} = {}".format(x,1/x))
