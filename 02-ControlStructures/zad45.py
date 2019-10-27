@@ -1,4 +1,5 @@
 N = int(input("Podaj ilość początkowych liczb pierwszych: "))
+print("Liczby pierwsze:",end=" ")
 dzielniki = 0
 for x in range(2,N):
     for y in range(1, x+1):
@@ -7,4 +8,3 @@ for x in range(2,N):
     if dzielniki < 3:
         print(x,end=" ")
     dzielniki = 0
-print("Liczby pierwsze:",end=" ")

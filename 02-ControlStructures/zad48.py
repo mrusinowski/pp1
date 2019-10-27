@@ -6,5 +6,5 @@ for x in range(1,8):
             if y == 1:
                 print(f" {x+y*7} ",end="")
             else:
-                print(f"{x+y*7}",end="")
+                print(f"{x+y*7} ",end="")
     print()
