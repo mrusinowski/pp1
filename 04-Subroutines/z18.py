@@ -6,5 +6,4 @@ def silnia(n):
     if n > 1:
         return n * silnia(n-1)
 
-n = int(input'Wprowadź liczbę: '))
-print( f'n! = {silnia(n)}' )
+print( f'5! = {silnia(5)}' )
